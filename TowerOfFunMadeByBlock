@@ -1,0 +1,7 @@
+local hum = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
+game:GetService("RunService").Stepped:Connect(function ()
+	
+hum.CFrame = game:GetService("Workspace").LoadedStages[14].End.CFrame
+wait(1)
+hum.CFrame = CFrame.new(85.8473892, 898.60199, -39.5378456, 0.973823249, -1.69897447e-08, -0.227306589, 1.31478188e-08, 1, -1.84160687e-08, 0.227306589, 1.49454102e-08, 0.973823249)
+end)
